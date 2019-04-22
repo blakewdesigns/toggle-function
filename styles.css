@@ -1,0 +1,39 @@
+body{
+    margin: 20px;
+    background-color: black;
+}
+.toggle1, toggle2 {
+    height: 600px;
+    width: auto;
+    margin: 0 auto;
+    border-radius: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+.toggle1 {
+    background-image: url("../images/indy.jpg");
+}
+
+.toggle2 {
+    background-image: url("../images/galaxy-wallpapers-6.jpg");
+}
+
+button {
+    display: block;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    border-radius: 20px;
+    margin: 0 auto;
+    position: relative;
+    top: 30px;
+    border: none;
+    -webkit-appearance: none;
+}
+
+button:hover {
+    background-color:rgb(142, 129, 177);
+    color: black;
+}
