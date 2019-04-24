@@ -3,7 +3,7 @@ body{
     background-color: black;
 }
 .toggle1, toggle2 {
-    height: 650px;
+    height: 725px;
     width: auto;
     margin: 0 auto;
     border-radius: 30px;
@@ -36,7 +36,7 @@ button {
 }
 
 button:hover {
-    background-image: radial-gradient(lightblue, black, black);
+    background-image: radial-gradient( lightblue,black, black);
     color: black;
 }
 
