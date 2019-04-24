@@ -3,20 +3,22 @@ body{
     background-color: black;
 }
 .toggle1, toggle2 {
-    height: 600px;
+    height: 650px;
     width: auto;
     margin: 0 auto;
     border-radius: 30px;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: bottom center;
+    
 }
 .toggle1 {
-    background-image: url("../images/indy.jpg");
+    background-image: url("../images/abnr.jpg");
+    background-position: center;
 }
 
 .toggle2 {
-    background-image: url("../images/galaxy-wallpapers-6.jpg");
+    background-image: url("../images/dust.jpg");
+    background-position: center;
 }
 
 button {
@@ -30,10 +32,16 @@ button {
     position: relative;
     top: 30px;
     border: none;
-    -webkit-appearance: none;
+    
 }
 
 button:hover {
-    background-color:rgb(142, 129, 177);
+    background-image: radial-gradient(lightblue, black, black);
     color: black;
 }
+
+button img{
+    height: 150px;
+}
+
+button:focus {outline:0;}
