@@ -12,11 +12,11 @@ body{
     background-position: bottom center;
 }
 .toggle1 {
-    background-image: url("../images/indy.jpg");
+    background-image: url("./images/indy.jpg");
 }
 
 .toggle2 {
-    background-image: url("../images/galaxy-wallpapers-6.jpg");
+    background-image: url("./images/galaxy-wallpapers-6.jpg");
 }
 
 button {
